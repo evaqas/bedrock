@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?bedrock.test$
+RewriteCond %{REQUEST_URI} !^/web/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /web/$1
+RewriteCond %{HTTP_HOST} ^(www.)?bedrock.test$
+RewriteRule ^(/)?$ web/index.php [L]
+</IfModule>

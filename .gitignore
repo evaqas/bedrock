@@ -15,6 +15,11 @@ web/.htaccess
 .env.*
 !.env.example
 
+# htaccess
+.htaccess
+.htaccess.*
+!.htaccess.example
+
 # Composer
 vendor/*
 !vendor/.gitkeep

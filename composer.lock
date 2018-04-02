@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f207524a42950cf97cc8ce247dd52c9",
+    "content-hash": "b87afd25f0ed22707b17caf7afb91396",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
-            "version": "5.6.7",
+            "version": "5.6.10",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.7",
+                "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&t=5.6.10",
                 "reference": null,
                 "shasum": null
             },
@@ -248,20 +248,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.1",
+            "version": "4.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "988875c1ec9f0474d1f77038b7a52f91125fc5f4"
+                "reference": "5394373d26a8e304eb293c2a9359701a7ab03131"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/988875c1ec9f0474d1f77038b7a52f91125fc5f4",
-                "reference": "988875c1ec9f0474d1f77038b7a52f91125fc5f4",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/5394373d26a8e304eb293c2a9359701a7ab03131",
+                "reference": "5394373d26a8e304eb293c2a9359701a7ab03131",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.1",
+                "johnpbloch/wordpress-core": "4.9.4",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -283,32 +283,32 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-11-29T21:57:18+00:00"
+            "time": "2018-02-06T16:42:18+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.1",
+            "version": "4.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5"
+                "reference": "eef672cdb4ae9e846c464d4d03684b43d4108eda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/e47f6652557c3160ee432c2fca5594ac1a8698f5",
-                "reference": "e47f6652557c3160ee432c2fca5594ac1a8698f5",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/eef672cdb4ae9e846c464d4d03684b43d4108eda",
+                "reference": "eef672cdb4ae9e846c464d4d03684b43d4108eda",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.1"
+                "wordpress/core-implementation": "4.9.4"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -323,20 +323,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-11-29T21:57:13+00:00"
+            "time": "2018-02-06T16:42:13+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "1.0.0",
+            "version": "1.0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
+                "reference": "7941acd71725710a789daabe0557429da63e7ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
-                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/7941acd71725710a789daabe0557429da63e7ac6",
+                "reference": "7941acd71725710a789daabe0557429da63e7ac6",
                 "shasum": ""
             },
             "require": {
@@ -372,7 +372,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-05-31T18:42:33+00:00"
+            "time": "2018-01-29T14:49:29+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -531,29 +531,29 @@
         },
         {
             "name": "timber/timber",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/timber/timber.git",
-                "reference": "c6d04e1e4ff4526288c7b95936bbb578dfb7d504"
+                "reference": "dcc32aaa9ed1febc13f98268816c35b0837b12e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/c6d04e1e4ff4526288c7b95936bbb578dfb7d504",
-                "reference": "c6d04e1e4ff4526288c7b95936bbb578dfb7d504",
+                "url": "https://api.github.com/repos/timber/timber/zipball/dcc32aaa9ed1febc13f98268816c35b0837b12e4",
+                "reference": "dcc32aaa9ed1febc13f98268816c35b0837b12e4",
                 "shasum": ""
             },
             "require": {
                 "asm89/twig-cache-extension": "~1.0",
                 "composer/installers": "~1.0",
                 "php": ">=5.3.0|7.*",
-                "twig/twig": "^1.0|2.*",
+                "twig/twig": "1.34.*|2.*",
                 "upstatement/routes": "0.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "5.7.16",
-                "wpackagist-plugin/advanced-custom-fields": "4.*",
-                "wpackagist-plugin/co-authors-plus": "3.*"
+                "wpackagist-plugin/advanced-custom-fields": "4.4.*",
+                "wpackagist-plugin/co-authors-plus": "3.2.*"
             },
             "suggest": {
                 "satooshi/php-coveralls": "1.0.* for code coverage"
@@ -588,20 +588,20 @@
                 "timber",
                 "twig"
             ],
-            "time": "2018-01-02T18:56:42+00:00"
+            "time": "2018-02-11T03:10:08+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v1.35.0",
+            "version": "v1.34.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "daa657073e55b0a78cce8fdd22682fddecc6385f"
+                "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/daa657073e55b0a78cce8fdd22682fddecc6385f",
-                "reference": "daa657073e55b0a78cce8fdd22682fddecc6385f",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/f878bab48edb66ad9c6ed626bf817f60c6c096ee",
+                "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee",
                 "shasum": ""
             },
             "require": {
@@ -615,7 +615,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.35-dev"
+                    "dev-master": "1.34-dev"
                 }
             },
             "autoload": {
@@ -653,7 +653,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-09-27T18:06:46+00:00"
+            "time": "2017-07-04T13:19:31+00:00"
         },
         {
             "name": "upstatement/routes",
@@ -760,16 +760,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.2.2",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "d7c00c3000ac0ce79c96fcbfef86b49a71158cd1"
+                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7c00c3000ac0ce79c96fcbfef86b49a71158cd1",
-                "reference": "d7c00c3000ac0ce79c96fcbfef86b49a71158cd1",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4842476c434e375f9d3182ff7b89059583aa8b27",
+                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27",
                 "shasum": ""
             },
             "require": {
@@ -779,7 +779,7 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0"
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "bin": [
                 "bin/phpcs",
@@ -807,7 +807,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-12-19T21:44:46+00:00"
+            "time": "2018-02-20T21:35:23+00:00"
         },
         {
             "name": "wpackagist-plugin/debug-bar",
@@ -868,6 +868,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/query-monitor/"
+        },
+        {
+            "name": "wpackagist-plugin/rewrite-rules-inspector",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rewrite-rules-inspector/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rewrite-rules-inspector.1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rewrite-rules-inspector/"
         },
         {
             "name": "wpackagist-plugin/wp-crontrol",

@@ -77,7 +77,7 @@
   },
   "scripts": {
     "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');copy('.htaccess.example', '.htaccess');\""
+      "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
       "phpcs"

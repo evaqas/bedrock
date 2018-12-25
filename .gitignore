@@ -1,4 +1,5 @@
 # Application
+web/app/*
 web/app/languages
 web/app/plugins/*
 !web/app/plugins/.gitkeep

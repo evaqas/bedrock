@@ -35,7 +35,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.6.10",
+        "version": "5.7.9",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -61,9 +61,8 @@
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.2.3",
-    "wpackagist-plugin/debug-bar": "^0.9.0",
     "wpackagist-plugin/debug-bar-timber": "^0.3.0",
-    "wpackagist-plugin/query-monitor": "^2.17",
+    "wpackagist-plugin/query-monitor": "^3.2.2",
     "wpackagist-plugin/wp-crontrol": "^1.6",
     "wpackagist-plugin/wp-migrate-db": "^1.0",
     "wpackagist-plugin/rewrite-rules-inspector": "^1.2"

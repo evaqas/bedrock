@@ -13,14 +13,12 @@ web/.htaccess
 
 # Dotenv
 .env
-.env.*
 !.env.example
 
 # htaccess
 .htaccess
-.htaccess.*
 !.htaccess.example
+!web/.htaccess
 
 # Composer
 vendor/*
-!vendor/.gitkeep

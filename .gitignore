@@ -22,4 +22,7 @@ web/.htaccess
 !web/.htaccess
 
 # Composer
-vendor/*
+/vendor
+
+# WP-CLI
+wp-cli.local.yml

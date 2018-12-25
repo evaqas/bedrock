@@ -1,0 +1,16 @@
+{
+  "name": "bedrock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:evaqas/bedrock.git",
+  "author": "Evaldas Romaškis <evaldasr@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "predist": "rm -rf dist",
+    "unpack": "git archive -o dist.zip master && unzip dist.zip -d dist && rm -f dist.zip",
+    "rename": "cd dist && mv .env.example .env && mv .htaccess.example .htaccess",
+    "deps": "cd dist && composer update --no-dev && rm -f composer.json composer.lock",
+    "dist": "yarn unpack && yarn rename && yarn deps"
+  }
+}

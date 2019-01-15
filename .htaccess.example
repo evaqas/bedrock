@@ -10,6 +10,6 @@
 </IfModule>
 
 <FilesMatch "^\.">
-  Order allow, deny
+  Order allow,deny
   Deny from all
 </FilesMatch>

@@ -28,9 +28,6 @@ web/app/themes/*
 # Composer
 /vendor
 
-# WP-CLI
-wp-cli.local.yml
-
 # Misc
 .DS_Store
 .vscode

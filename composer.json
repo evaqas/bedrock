@@ -46,6 +46,18 @@
           "ffraenz/private-composer-installer": "^2.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-sync-db/wp-sync-db",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/wp-sync-db/wp-sync-db/archive/master.zip"
+        }
+      }
     }
   ],
   "require": {
@@ -68,7 +80,8 @@
     "wpackagist-plugin/wp-crontrol": "^1.6",
     "wpackagist-plugin/wp-migrate-db": "^1.0",
     "wpackagist-plugin/rewrite-rules-inspector": "^1.2",
-    "wpackagist-plugin/user-switching": "^1.5"
+    "wpackagist-plugin/user-switching": "^1.5",
+    "wp-sync-db/wp-sync-db": "*"
   },
   "extra": {
     "installer-paths": {

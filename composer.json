@@ -26,7 +26,8 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://wpackagist.org"
+      "url": "https://wpackagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     },
     {
       "type": "package",
@@ -59,10 +60,11 @@
   ],
   "require": {
     "php": ">=7.1",
-    "composer/installers": "^1.7",
-    "vlucas/phpdotenv": "^3.4.0",
-    "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "^5.2.3",
+    "composer/installers": "^1.8",
+    "vlucas/phpdotenv": "^4.1.5",
+    "oscarotero/env": "^2.0",
+    "roots/bedrock-autoloader": "^1.0",
+    "roots/wordpress": "5.4.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
@@ -70,7 +72,7 @@
     "wpackagist-plugin/classic-editor": "^1.4"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.4.2",
+    "squizlabs/php_codesniffer": "^3.5.4",
     "roave/security-advisories": "dev-master",
     "wpackagist-plugin/debug-bar-timber": "^0.3.0",
     "wpackagist-plugin/query-monitor": "^3.2.2",
@@ -81,8 +83,7 @@
   },
   "config": {
     "optimize-autoloader": true,
-    "preferred-install": "dist",
-    "sort-packages": true
+    "preferred-install": "dist"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,

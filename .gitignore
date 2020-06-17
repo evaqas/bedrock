@@ -34,3 +34,6 @@ web/app/themes/*
 *.log
 /dist
 node_modules
+
+# Local by Flywheel
+/sql

@@ -33,15 +33,15 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.8.13",
+        "version": "5.9.5",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
           "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
         },
         "require": {
-          "composer/installers": "^1.4",
-          "ffraenz/private-composer-installer": "^4.0"
+          "composer/installers": "^1.10",
+          "ffraenz/private-composer-installer": "^5.0"
         }
       }
     },
@@ -61,13 +61,13 @@
   "require": {
     "php": ">=7.1",
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    "composer/installers": "^1.8",
+    "composer/installers": "^1.10",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
-    "roots/wordpress": "^5.5",
+    "roots/wordpress": "^5.7",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "vlucas/phpdotenv": "^4.1.8",
+    "vlucas/phpdotenv": "^5.3",
     "wpackagist-plugin/backwpup": "^3.7",
     "wpackagist-plugin/classic-editor": "^1.4",
     "wpackagist-plugin/complete-open-graph": "^3.4",
@@ -76,7 +76,7 @@
     "wpackagist-plugin/query-monitor": "^3.2.2"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^3.5.6",
+    "squizlabs/php_codesniffer": "^3.5.8",
     "roave/security-advisories": "dev-master",
     "wpackagist-plugin/debug-bar-timber": "^1.0.5",
     "wpackagist-plugin/wp-crontrol": "^1.6",

@@ -1,5 +1,6 @@
 # Application
 public_html/app/*
+!public_html/app/*/
 public_html/app/languages
 !public_html/app/languages/loco
 public_html/app/plugins/*

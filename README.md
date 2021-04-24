@@ -34,3 +34,8 @@ create-project() {
 6. Edit Apache config: ``code ../conf/apache/site.conf.hbs``.
    - Set DocumentRoot and &lt;Directory&gt; to ``/Users/username/Local Sites/project-name/app/public_html``.
    - Restart Local web server.
+
+## Sync repository
+1. git fetch upstream
+2. git checkout master
+3. git merge upstream/master

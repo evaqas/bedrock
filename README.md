@@ -8,7 +8,7 @@
 1. Add this function to ``~/.bash_profile``:
 ```bash
 create-project() {
-    local sites_dir="/Users/evaldas/Local Sites"
+    local sites_dir="/Users/username/Local Sites"
 
     if [ -z "$1" ]; then
         echo "No destination directory provided."
@@ -32,5 +32,5 @@ create-project() {
 4. Configure ``.env`` values.
 5. Run ``composer install``.
 6. Edit Apache config: ``code ../conf/apache/site.conf.hbs``.
-   - Set DocumentRoot and &lt;Directory&gt; to ``/Users/username/Local Sites/project-name/app/web``.
+   - Set DocumentRoot and &lt;Directory&gt; to ``/Users/username/Local Sites/project-name/app/public_html``.
    - Restart Local web server.

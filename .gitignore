@@ -1,39 +1,29 @@
 # Application
-web/app/*
-web/app/languages
-!web/app/languages/loco
-web/app/plugins/*
-!web/app/plugins/.gitkeep
-web/app/mu-plugins/*/
-web/app/upgrade
-web/app/uploads/*
-!web/app/uploads/.gitkeep
+public_html/app/*
+public_html/app/languages
+!public_html/app/languages/loco
+public_html/app/plugins/*
+!public_html/app/plugins/.gitkeep
+public_html/app/mu-plugins/*/
+public_html/app/upgrade
+public_html/app/uploads/*
+!public_html/app/uploads/.gitkeep
 
 # WordPress
-web/wp
-web/.htaccess
-
-# Theme
-web/app/themes/*
-!web/app/themes/dev
+public_html/wp
+public_html/.htaccess
 
 # Dotenv
 .env
+.env.*
 !.env.example
-
-# htaccess
-.htaccess
-!.htaccess.example
 
 # Composer
 /vendor
 
 # Misc
 .DS_Store
-.vscode
 *.log
-/dist
-node_modules
 
 # Local by Flywheel
 /sql
